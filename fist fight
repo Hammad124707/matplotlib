@@ -16,3 +16,8 @@ plt.title (the title of our figure)
 
 
 plt.scatter(x, y, s=None, c=None, marker=None, cmap=None, alpha=None, linewidths=None, edgecolors=None)
+
+import matplotlib.pyplot as plt
+x = ["Shayan", "Abdullah","Affan","Ahmed.Rasheed","Hammad"]
+y = [3.91,3.74,3.51,3.45,3.39]
+plt.bar(x,y)
