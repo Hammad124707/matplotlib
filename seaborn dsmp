@@ -1,0 +1,23 @@
+We use seaborn becausse we can do 1 powerful thing here like
+A) we can show more than 2 columns in  a single graph using seaborn.
+
+
+to make any diagram we use figure level funtion
+sns.relplot(data = "dataframe" , x = "column" , y = "name of column" ,kind =)
+
+
+
+we can only plot relational graphs using this using kind = relplot
+
+
+sns.scatterplot(data=tips, x='total_bill', y='tip',hue='sex',style='time',size='size')
+
+
+sns.relplot
+sns.displot
+
+
+
+
+
+
