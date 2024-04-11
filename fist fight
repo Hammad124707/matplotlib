@@ -1,0 +1,18 @@
+import matplotlb.pyplot as plt 
+plt.plot(X,Y)
+plt.ylabel()
+plt.xlabel () 
+
+to plot points instead of graph we use another argument
+
+plt.plot(X,Y,'r*')
+plt.plot(x, y, linestyle='-', marker=None, color=None, label=None, linewidth=None, markersize=None)
+
+from matplotlib import style
+style.use('ggplot')
+
+plt.title (the title of our figure)
+
+
+
+plt.scatter(x, y, s=None, c=None, marker=None, cmap=None, alpha=None, linewidths=None, edgecolors=None)
